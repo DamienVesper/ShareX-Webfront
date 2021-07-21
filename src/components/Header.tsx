@@ -24,22 +24,19 @@ class Header extends React.Component {
                         </button>
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                                <li className="nav-item">
-                                    <a href="/servers" className={`nav-link ${window.location.pathname === `/servers` ? `active disabled` : ``}`}>Servers</a>
-                                </li>
-                                <li className="nav-item">
-                                    <a href="/staff" className={`nav-link ${window.location.pathname === `/staff` ? `active disabled` : ``}`}>Our Staff</a>
+                                <li className="nav-item d-none">
+                                    <a href="/servers" className={`nav-link ${window.location.pathname === `/servers` ? `active disabled` : ``}`}>Dashboard</a>
                                 </li>
                             </ul>
                             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-                                <li className="nav-item">
-                                    <a href="https://forum.alru.ga" target="_blank" rel="noreferrer" className="nav-link">Forum</a>
+                                <li className="nav-item d-none">
+                                    <a href="/auth/login" target="_blank" rel="noreferrer" className="nav-link">Log In</a>
                                 </li>
-                                <li className="nav-item">
-                                    <a href="https://panel.alru.ga" target="_blank" rel="noreferrer" className="nav-link">Panel</a>
+                                <li className="nav-item d-none">
+                                    <a href="/auth/signup" target="_blank" rel="noreferrer" className="nav-link">Sign Up</a>
                                 </li>
-                                <li className="nav-item">
-                                    <a href="https://discord.alru.ga" target="_blank" rel="noreferrer" className="nav-link">Discord</a>
+                                <li className="nav-item d-none">
+                                    <a href="/auth/logout" target="_blank" rel="noreferrer" className="nav-link">Log Out</a>
                                 </li>
                             </ul>
                         </div>
