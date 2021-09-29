@@ -1,4 +1,3 @@
-// React libraries.
 import React from 'react';
 
 import {
@@ -6,8 +5,6 @@ import {
     Switch,
     Route
 } from 'react-router-dom';
-
-import { hot } from 'react-hot-loader';
 
 import '../public/assets/scss/index.scss';
 import 'bootstrap';
@@ -19,9 +16,6 @@ import Home from './pages/Home';
 
 import Error404 from './pages/404';
 
-/**
- * The application layout.
- */
 class App extends React.Component {
     render = () => {
         return (
@@ -46,4 +40,4 @@ class App extends React.Component {
     }
 }
 
-export default hot(module)(App);
+export default App;

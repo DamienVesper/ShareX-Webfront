@@ -1,14 +1,9 @@
-// React libraries.
 import React from 'react';
-import { hot } from 'react-hot-loader';
 
 import '../../public/assets/scss/components/header.scss';
 
 // import Logo from '../../public/assets/img/logos/header.png';
 
-/**
- * The header of the website.
- */
 class Header extends React.Component {
     render = () => {
         return (
@@ -47,4 +42,4 @@ class Header extends React.Component {
     }
 }
 
-export default hot(module)(Header);
+export default Header;
