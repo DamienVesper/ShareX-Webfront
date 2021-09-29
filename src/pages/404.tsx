@@ -3,7 +3,7 @@ import React from 'react';
 import '../../public/assets/scss/pages/error.scss';
 
 class Error404 extends React.Component {
-    render = () => {
+    render = (): React.ReactNode => {
         return (
             <main className="text-center">
                 <h1 className="mt-5 error-header">404</h1>

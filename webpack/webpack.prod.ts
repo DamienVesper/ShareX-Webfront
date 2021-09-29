@@ -1,6 +1,8 @@
 import merge from 'webpack-merge';
 import common from './webpack.common';
 
+import Webpack from 'webpack';
+
 import HTMLWebpackPlugin from 'html-webpack-plugin';
 import { WebpackManifestPlugin } from 'webpack-manifest-plugin';
 
@@ -34,7 +36,7 @@ const config = merge(common, {
         },
 
         runtimeChunk: {
-            name: (entrypoint: any) => `runtime-${entrypoint.name}`
+            name: (entrypoint: Webpack.RuntimeModule): string => `runtime-${entrypoint.name}`
         },
 
         minimizer: [

@@ -5,7 +5,7 @@ import '../../public/assets/scss/components/header.scss';
 // import Logo from '../../public/assets/img/logos/header.png';
 
 class Header extends React.Component {
-    render = () => {
+    render = (): React.ReactNode => {
         return (
             <header>
                 <nav className="navbar navbar-expand-lg navbar-dark">

@@ -3,7 +3,7 @@ import React from 'react';
 // import '../../public/assets/scss/pages/home.scss';
 
 class Home extends React.Component {
-    render = () => {
+    render = (): React.ReactNode => {
         return (
             <main className="text-center container">
                 <h1 className="page-title mt-5">Welcome to the Alru ShareX!</h1>
