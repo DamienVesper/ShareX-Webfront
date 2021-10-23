@@ -21,10 +21,10 @@ class Home extends React.Component {
                 <br />
                 <br />
 
-                <button className="btn btn-lg btn-primary btn-sign-in">
+                <a href="/auth/login" className="btn btn-lg btn-primary btn-sign-in">
                     <span>Sign In</span>
                     <FontAwesomeIcon icon={faSignInAlt} />
-                </button>
+                </a>
             </main>
         );
     }
