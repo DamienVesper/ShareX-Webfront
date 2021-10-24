@@ -1,3 +1,18 @@
 .btn-sign-in {
     padding: 16px 24px;
+
+    span {
+        margin-right: 5px;
+    }
+
+    transition: 0.3s;
+}
+
+.btn-sign-in:hover {
+    color: #000000;
+
+    background-color: #ffffff;
+    border-color: #ffffff;
+
+    transform: scale(1.25);
 }
