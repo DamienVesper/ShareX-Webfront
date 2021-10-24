@@ -36,5 +36,5 @@ jobs:
           port: '${{ secrets.SFTP_PORT }}'
           ssh_private_key: ${{ secrets.SFTP_PRIVKEY }} 
           local_path: './dist/*'
-          remote_path: '/var/www/alru.ga'
+          remote_path: '/var/www/i.alru.xyz'
           args: '-o ConnectTimeout=5'
