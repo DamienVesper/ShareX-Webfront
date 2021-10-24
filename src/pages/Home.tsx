@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+import { faSignInAlt } from '@fortawesome/free-solid-svg-icons';
 
 import '../../public/assets/scss/pages/home.scss';
 
@@ -13,7 +13,7 @@ class Home extends React.Component {
                 <br />
                 <br />
                 <br />
-                <h1 className="page-title mt-5">Welcome to the Alru ShareX!</h1>
+                <h1 className="page-title mt-5">Welcome to the Alru&nbsp;ShareX!</h1>
                 <p className="desc mt-3">
                     It&apos;s like Lunus, but better...
                 </p>
@@ -21,11 +21,10 @@ class Home extends React.Component {
                 <br />
                 <br />
 
-                <button className="btn btn-lg btn-primary btn-sign-in">
+                <a href="https://discord.com/api/oauth2/authorize?client_id=861498165336866856&redirect_uri=https%3A%2F%2Fi.alru.ga%2Fauth%2Fdiscord&response_type=code&scope=identify%20email" className="btn btn-lg btn-primary btn-sign-in">
                     <span>Sign In</span>
-
-                    <FontAwesomeIcon icon={faCoffee} />
-                </button>
+                    <FontAwesomeIcon icon={faSignInAlt} />
+                </a>
             </main>
         );
     }

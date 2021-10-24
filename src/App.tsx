@@ -10,6 +10,7 @@ import '../public/assets/scss/index.scss';
 import 'bootstrap';
 
 import Home from './pages/Home';
+import Dashboard from './pages/Dashboard';
 
 import Error404 from './pages/404';
 
@@ -22,6 +23,11 @@ class App extends React.Component {
                         {/* Landing Page */}
                         <Route exact path="/">
                             <Home />
+                        </Route>
+
+                        {/* Dashboard */}
+                        <Route exact path="/dashboard">
+                            <Dashboard />
                         </Route>
 
                         {/* 404 Handler */}
