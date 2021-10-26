@@ -53,17 +53,17 @@ class Dashboard extends React.Component {
         );
     };
 
-    componentDidMount = async (): Promise<void> => {
-        const userData = await fetch(`https://i.alru.xyz/auth/authenticated`)
-            .catch(err => {
-                console.error(err);
-                if (window.location.hostname !== `localhost`) window.location.href = `/`;
-            });
+    // componentDidMount = async (): Promise<void> => {
+    //     const userData = await fetch(`https://i.alru.xyz/auth/authenticated`)
+    //         .catch(err => {
+    //             console.error(err);
+    //             if (window.location.hostname !== `localhost`) window.location.href = `/`;
+    //         });
 
-        // {"discordID":"386940319666667521","username":"DamienVesper","email":"ldamienvesper@gmail.com","avatar":"2c18b54f11167920ada3a6ebd538f910","permissions":{"admin":false}}
+    //     // {"discordID":"386940319666667521","username":"DamienVesper","email":"ldamienvesper@gmail.com","avatar":"2c18b54f11167920ada3a6ebd538f910","permissions":{"admin":false}}
 
-        if (!((userData as unknown) as UserData).authenticated && window.location.hostname !== `localhost`) window.location.href = `/`;
-    };
+    //     if (!((userData as unknown) as UserData).authenticated && window.location.hostname !== `localhost`) window.location.href = `/`;
+    // };
 }
 
 export default Dashboard;
