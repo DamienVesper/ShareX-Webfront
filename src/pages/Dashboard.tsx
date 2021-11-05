@@ -20,38 +20,36 @@ import '../../public/assets/scss/pages/dashboard.scss';
 // }
 
 class Dashboard extends React.Component {
-    render = (): React.ReactNode => {
-        return (
-            <main className="text-center container">
-                <div className="dash-container mx-2 my-5">
-                    <div className="dash-header">
-                        <h1 className="page-title">Dashboard</h1>
-                    </div>
-                    <div className="dash-content">
-                        <div className="dash-config-container">
-                            <div className="dash-config">
-                                <h5>ShareX Config</h5>
-                                <p>Download your config</p>
-                                <div className="dash-config-btns">
-                                    <a href="/api/settings/config" target="_blank" className="btn btn-sm btn-success download-btn">
-                                        <FontAwesomeIcon icon={faDownload} />
-                                        <span>Download</span>
-                                    </a>
-                                    <a href="#" className="btn btn-sm btn-danger tutorial-btn">
-                                        <FontAwesomeIcon icon={faDesktop} />
-                                        <span>Tutorial</span>
-                                    </a>
-                                </div>
+    render = (): React.ReactNode => (
+        <main className="text-center container">
+            <div className="dash-container mx-2 my-5">
+                <div className="dash-header">
+                    <h1 className="page-title">Dashboard</h1>
+                </div>
+                <div className="dash-content">
+                    <div className="dash-config-container">
+                        <div className="dash-config">
+                            <h5>ShareX Config</h5>
+                            <p>Download your config</p>
+                            <div className="dash-config-btns">
+                                <a href="/api/settings/config" target="_blank" className="btn btn-sm btn-success download-btn">
+                                    <FontAwesomeIcon icon={faDownload} />
+                                    <span>Download</span>
+                                </a>
+                                <a href="#" className="btn btn-sm btn-danger tutorial-btn">
+                                    <FontAwesomeIcon icon={faDesktop} />
+                                    <span>Tutorial</span>
+                                </a>
                             </div>
                         </div>
-                        <div className="dash-pictures">
-                            <h5>Uploaded Pictures</h5>
-                        </div>
+                    </div>
+                    <div className="dash-pictures">
+                        <h5>Uploaded Pictures</h5>
                     </div>
                 </div>
-            </main>
-        );
-    };
+            </div>
+        </main>
+    );
 
     // componentDidMount = async (): Promise<void> => {
     //     const userData = await fetch(`https://i.alru.xyz/auth/authenticated`)

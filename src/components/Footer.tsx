@@ -7,7 +7,7 @@ class Footer extends React.Component {
         return (
             <footer></footer>
         );
-    }
+    };
 }
 
 export default Footer;
