@@ -2,7 +2,7 @@ import React from 'react';
 
 import {
     BrowserRouter as Router,
-    Switch,
+    Routes,
     Route
 } from 'react-router-dom';
 
@@ -19,26 +19,20 @@ class App extends React.Component {
         return (
             <div id="app" className="text-light d-flex flex-column h-100">
                 <Router>
-                    <Switch>
+                    <Routes>
                         {/* Landing Page */}
-                        <Route exact path="/">
-                            <Home />
-                        </Route>
+                        <Route path="/" element={<Home />} />
 
                         {/* Dashboard */}
-                        <Route exact path="/dashboard">
-                            <Dashboard />
-                        </Route>
+                        <Route path="/dashboard" element={<Dashboard />} />
 
                         {/* 404 Handler */}
-                        <Route path="/">
-                            <Error404 />
-                        </Route>
-                    </Switch>
+                        <Route path="/*" element={<Error404 />} />
+                    </Routes>
                 </Router>
             </div>
         );
-    }
+    };
 }
 
 export default App;

@@ -10,7 +10,7 @@ class Error404 extends React.Component {
                 <h3 className="error-subscript">Not Found</h3>
             </main>
         );
-    }
+    };
 }
 
 export default Error404;

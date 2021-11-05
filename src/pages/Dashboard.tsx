@@ -6,18 +6,18 @@ import { faDownload, faDesktop } from '@fortawesome/free-solid-svg-icons';
 import '../../public/assets/scss/pages/home.scss';
 import '../../public/assets/scss/pages/dashboard.scss';
 
-interface UserData {
-    authenticated: boolean
+// interface UserData {
+//     authenticated: boolean
 
-    discordID: string
-    username: string
-    email: string
-    avatar: string
+//     discordID: string
+//     username: string
+//     email: string
+//     avatar: string
 
-    permissions: {
-        admin: boolean
-    }
-}
+//     permissions: {
+//         admin: boolean
+//     }
+// }
 
 class Dashboard extends React.Component {
     render = (): React.ReactNode => {
