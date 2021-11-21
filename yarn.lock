@@ -5,6 +5,52 @@ __metadata:
   version: 5
   cacheKey: 8
 
+"@alliance-reunited/i.alru.xyz@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@alliance-reunited/i.alru.xyz@workspace:."
+  dependencies:
+    "@fortawesome/fontawesome-svg-core": ^1.2.36
+    "@fortawesome/free-solid-svg-icons": ^5.15.4
+    "@fortawesome/react-fontawesome": ^0.1.16
+    "@popperjs/core": ^2.10.2
+    "@types/bootstrap": ^5.1.6
+    "@types/css-minimizer-webpack-plugin": ^3.0.2
+    "@types/mini-css-extract-plugin": ^2.4.0
+    "@types/node": ^16.11.9
+    "@types/react": ^17.0.35
+    "@types/react-dom": ^17.0.11
+    "@types/webpack": ^5.28.0
+    "@types/webpack-dev-server": ^4.5.0
+    "@typescript-eslint/eslint-plugin": ^4.33.0
+    "@typescript-eslint/parser": ^4.33.0
+    bootstrap: ^5.1.3
+    css-loader: ^6.5.1
+    css-minimizer-webpack-plugin: ^3.1.4
+    eslint: ^7.32.0
+    eslint-config-standard-with-typescript: ^21.0.1
+    eslint-plugin-import: ^2.25.3
+    eslint-plugin-node: ^11.1.0
+    eslint-plugin-promise: ^5.1.1
+    eslint-plugin-react: ^7.27.1
+    html-webpack-plugin: ^5.5.0
+    mini-css-extract-plugin: ^2.4.5
+    react: ^17.0.2
+    react-dom: ^17.0.2
+    react-router-dom: ^6.0.2
+    sass: ^1.43.4
+    sass-loader: ^12.3.0
+    style-loader: ^3.3.1
+    ts-loader: ^9.2.6
+    ts-node: ^10.4.0
+    typescript: ^4.5.2
+    webpack: ^5.64.1
+    webpack-cli: ^4.9.1
+    webpack-dev-server: ^4.5.0
+    webpack-manifest-plugin: ^4.0.2
+    webpack-merge: ^5.8.0
+  languageName: unknown
+  linkType: soft
+
 "@babel/code-frame@npm:7.12.11":
   version: 7.12.11
   resolution: "@babel/code-frame@npm:7.12.11"
@@ -3125,52 +3171,6 @@ __metadata:
   checksum: 9c7a74a2827f9294c009266c82031030eae811ca87b0da3dceb8d6071b9bde22c9f3daef0469c3c533cc67a97d8a167cd9fc0389350e5f415f61a79b171ded16
   languageName: node
   linkType: hard
-
-"i.alru.xyz@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "i.alru.xyz@workspace:."
-  dependencies:
-    "@fortawesome/fontawesome-svg-core": ^1.2.36
-    "@fortawesome/free-solid-svg-icons": ^5.15.4
-    "@fortawesome/react-fontawesome": ^0.1.16
-    "@popperjs/core": ^2.10.2
-    "@types/bootstrap": ^5.1.6
-    "@types/css-minimizer-webpack-plugin": ^3.0.2
-    "@types/mini-css-extract-plugin": ^2.4.0
-    "@types/node": ^16.11.9
-    "@types/react": ^17.0.35
-    "@types/react-dom": ^17.0.11
-    "@types/webpack": ^5.28.0
-    "@types/webpack-dev-server": ^4.5.0
-    "@typescript-eslint/eslint-plugin": ^4.33.0
-    "@typescript-eslint/parser": ^4.33.0
-    bootstrap: ^5.1.3
-    css-loader: ^6.5.1
-    css-minimizer-webpack-plugin: ^3.1.4
-    eslint: ^7.32.0
-    eslint-config-standard-with-typescript: ^21.0.1
-    eslint-plugin-import: ^2.25.3
-    eslint-plugin-node: ^11.1.0
-    eslint-plugin-promise: ^5.1.1
-    eslint-plugin-react: ^7.27.1
-    html-webpack-plugin: ^5.5.0
-    mini-css-extract-plugin: ^2.4.5
-    react: ^17.0.2
-    react-dom: ^17.0.2
-    react-router-dom: ^6.0.2
-    sass: ^1.43.4
-    sass-loader: ^12.3.0
-    style-loader: ^3.3.1
-    ts-loader: ^9.2.6
-    ts-node: ^10.4.0
-    typescript: ^4.5.2
-    webpack: ^5.64.1
-    webpack-cli: ^4.9.1
-    webpack-dev-server: ^4.5.0
-    webpack-manifest-plugin: ^4.0.2
-    webpack-merge: ^5.8.0
-  languageName: unknown
-  linkType: soft
 
 "iconv-lite@npm:0.4.24":
   version: 0.4.24

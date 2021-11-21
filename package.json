@@ -1,5 +1,5 @@
 {
-  "name": "i.alru.xyz",
+  "name": "@alliance-reunited/i.alru.xyz",
   "description": "The Alliance Reunited ShareX web application.",
   "packageManager": "yarn@3.1.0",
   "version": "1.0.0",
