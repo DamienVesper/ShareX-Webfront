@@ -3,11 +3,16 @@
   "description": "The Alliance Reunited ShareX web application.",
   "packageManager": "yarn@3.1.0",
   "version": "1.0.0",
+  "private": true,
   "scripts": {
     "build": "webpack --config ./webpack/webpack.prod.ts",
     "dev": "webpack serve --config ./webpack/webpack.dev.ts",
     "dev:lint": "eslint . --fix --ext .ts,.tsx",
     "dev:lint:ci": "eslint . --ext .ts,.tsx"
+  },
+  "engines": {
+    "node": ">=16.10.0",
+    "yarn": ">=3.10.0"
   },
   "repository": {
     "type": "git",
@@ -19,7 +24,7 @@
     "nodejs"
   ],
   "author": "DamienVesper",
-  "license": "AGPL-3.0",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/DamienVesper/ReactStarter/issues"
   },
