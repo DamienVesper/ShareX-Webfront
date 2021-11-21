@@ -26,8 +26,6 @@ jobs:
       - name: Install Packages
         run: yarn
         env:
-          CI: true
       - name: Lint
         run: yarn dev:lint:ci
         env:
-          CI: true
