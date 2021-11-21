@@ -8,7 +8,7 @@
 !.yarn/versions
 
 # Node modules
-node_modules
+node_modules/
 
 # Webpack build
 dist/
