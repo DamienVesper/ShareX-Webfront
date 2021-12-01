@@ -5,9 +5,8 @@ on:
     branches: ['master']
 
 jobs:
-  
-  setup:
-    name: Setup
+  nodejs:
+    name: Node.JS
     runs-on: ubuntu-latest
 
     strategy:
@@ -25,16 +24,13 @@ jobs:
 
       - name: Install Packages
         run: yarn
-  build:
-    name: Build
-    needs: setup
-    steps:
+
       - name: Build
         run: yarn build
-  deploy:
-    name: Deploy
-    needs: build
-    steps:
+
+      - name: Lint
+        run: yarn dev:lint:ci
+
       - name: Deploy
         uses: wlixcc/SFTP-Deploy-Action@v1.0
         with:
