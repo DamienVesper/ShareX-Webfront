@@ -3,11 +3,10 @@ name: CI
 on:
   push:
   pull_request:
-    branches: [dependabot/**]
 
 jobs:
-  build:
-    name: Build
+  setup:
+    name: Setup
     runs-on: ubuntu-latest
 
     strategy:
@@ -25,6 +24,15 @@ jobs:
 
       - name: Install Packages
         run: yarn
-
+  build:
+    name: Build
+    needs: setup
+    steps:
       - name: Build
         run: yarn build
+  lint:
+    name: Lint
+    needs: build
+    steps:
+      - name: Lint
+        run: yarn dev:lint:ci
