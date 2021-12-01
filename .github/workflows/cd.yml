@@ -41,5 +41,3 @@ jobs:
           local_path: './dist/*'
           remote_path: '/var/www/i.alru.xyz'
           args: '-o ConnectTimeout=5'
-
-          
