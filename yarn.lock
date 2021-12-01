@@ -16,13 +16,13 @@ __metadata:
     "@types/bootstrap": ^5.1.6
     "@types/css-minimizer-webpack-plugin": ^3.2.1
     "@types/mini-css-extract-plugin": ^2.4.0
-    "@types/node": ^16.11.9
+    "@types/node": ^16.11.11
     "@types/react": ^17.0.37
     "@types/react-dom": ^17.0.11
     "@types/webpack": ^5.28.0
     "@types/webpack-dev-server": ^4.5.0
-    "@typescript-eslint/eslint-plugin": ^5.4.0
-    "@typescript-eslint/parser": ^5.4.0
+    "@typescript-eslint/eslint-plugin": ^5.5.0
+    "@typescript-eslint/parser": ^5.5.0
     bootstrap: ^5.1.3
     css-loader: ^6.5.1
     css-minimizer-webpack-plugin: ^3.2.0
@@ -37,7 +37,7 @@ __metadata:
     react: ^17.0.2
     react-dom: ^17.0.2
     react-router-dom: ^6.0.2
-    sass: ^1.43.5
+    sass: ^1.44.0
     sass-loader: ^12.3.0
     style-loader: ^3.3.1
     ts-loader: ^9.2.6
@@ -431,7 +431,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^16.11.9":
+"@types/node@npm:*, @types/node@npm:^16.11.11":
   version: 16.11.11
   resolution: "@types/node@npm:16.11.11"
   checksum: 1c472bd63f23ca0e4effc96e6e0c693b83b027f613a1f41b6d1bd7791f65ce171a351e0a5c92575cb59e84ad0a930875397bfbbb91a7c925ddbbb558f7461af8
@@ -558,7 +558,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/eslint-plugin@npm:^5.4.0":
+"@typescript-eslint/eslint-plugin@npm:^5.5.0":
   version: 5.5.0
   resolution: "@typescript-eslint/eslint-plugin@npm:5.5.0"
   dependencies:
@@ -613,7 +613,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/parser@npm:^5.4.0":
+"@typescript-eslint/parser@npm:^5.5.0":
   version: 5.5.0
   resolution: "@typescript-eslint/parser@npm:5.5.0"
   dependencies:
@@ -5352,7 +5352,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:^1.43.5":
+"sass@npm:^1.44.0":
   version: 1.44.0
   resolution: "sass@npm:1.44.0"
   dependencies:
