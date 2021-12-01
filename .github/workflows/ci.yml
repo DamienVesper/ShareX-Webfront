@@ -6,7 +6,7 @@ on:
 
 jobs:
   nodejs:
-    name: Node.JS
+    name: Node.js
     runs-on: ubuntu-latest
 
     strategy:
