@@ -1,7 +1,7 @@
 {
   "name": "@alliance-reunited/i.alru.xyz",
   "description": "The Alliance Reunited ShareX web application.",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "private": true,
   "scripts": {
     "build": "webpack --config ./webpack/webpack.prod.ts",
@@ -10,7 +10,7 @@
     "dev:lint:ci": "eslint . --ext .ts,.tsx"
   },
   "engines": {
-    "node": ">=16.10.0",
+    "pnpm": ">=6.20.3",
     "yarn": ">=3.1.0"
   },
   "repository": {
